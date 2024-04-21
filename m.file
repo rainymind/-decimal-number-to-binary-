@@ -1,0 +1,18 @@
+% Convert decimal number to binary
+function binary = decimalToBinary(decimal)
+    binary = dec2bin(decimal);
+end
+
+% Convert binary number to decimal
+function decimal = binaryToDecimal(binary)
+    decimal = bin2dec(binary);
+end
+
+% Sample usage of the functions
+decimalNumber = 10.5;
+binaryNumber = decimalToBinary(decimalNumber);
+disp(['Binary equivalent of ', num2str(decimalNumber), ' is: ', binaryNumber]);
+
+binaryString = '1010.1';
+decimalNumber = binaryToDecimal(binaryString);
+disp(['Decimal equivalent of binary ', binaryString, ' is: ', num2str(decimalNumber)]);
