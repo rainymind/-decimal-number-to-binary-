@@ -1,4 +1,4 @@
-% Convert decimal number to binary.
+% Convert decimal number to binary.05124065225
 function binary = decimalToBinary(decimal)
     binary = dec2bin(decimal);
 end
